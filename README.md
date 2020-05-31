@@ -5,5 +5,5 @@ Live Preview : https://ajayvardhanreddy.github.io/Rock-Paper-Scissors/
 
 Feel free to play. Hope you all love it!
 
-
+Comment your views. 
 
