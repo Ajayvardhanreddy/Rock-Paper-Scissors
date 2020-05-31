@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Rock Paper scissors Game in Html and JavaScript</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="article:tag" content="rock paper scissors, html games, javascript games, rock paper scissors in html css javascript, how to make rock paper scissorsgame sin html css javascript"/>
+        <link rel="shortcut icon" type="image/x-icon" href="logo.png">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kaushan+Script&display=swap" rel="stylesheet">
+    </head>
+    <body>
+     <main>
+      <div class="header-style">
+          <h1 data-aos="fade-up" class="mb-5"><span class="typed-words"></span></h1>
+          <h2 align="center">An Epic battle between Human and Computer</h2>
+      </div>
+      <script src="typed.js"></script>
+      <script>
+      var typed = new Typed('.typed-words', {
+      strings: ["Rock Paper Scissors"],
+      typeSpeed: 80,
+      backSpeed: 80,
+      backDelay: 4000,
+      startDelay: 200,
+      loop: true,
+      showCursor: true
+      });
+      </script>
+      <div class="score_label">
+        <label id="user_label">Player</label>
+        <label id="computer_label">Computer</label>
+    </div><br><br>
+      <div class="score">
+       
+          <input id="user_score" value="0"readonly>
+          <input id="computer_score" value="0"readonly>
+      </div>
+    <br><br>
+       <div class="show">
+           <img id="user" src="rock-user.png">
+           <img id="computer" src="rock-comp.png">
+       </div>
+       <div class="score_para" align="center">
+           <p id="win_value"></p>
+       </div>
+       <div class="opt">
+        <h3>Select below options to play:</h3>
+       </div>
+       <div class="options" align="center">
+          
+           <div class="rock-option"><img id="rock" src="rock-user.png" data-toggle="tooltip" data-placement="top" title="Rock"></div>
+           
+           <div class="paper-option"><img id="paper" src="paper-user.png" data-toggle="tooltip" data-placement="top" title="Paper"></div>
+           <div class="scissors-option"><img id="scissors" src="scissor-user.png" data-toggle="tooltip" data-placement="top" title="Scissors"></div>
+        </div><br><br>
+        <footer class="logo-img" align="center"><img src="logo.png"><h4>Copyright ©2020 All rights reserved</h4></footer>
+        </main>
+    <script src="script.js"></script>
+    </body>
+</html> 
